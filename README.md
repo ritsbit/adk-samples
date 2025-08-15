@@ -15,4 +15,5 @@
 # Order you should follow to learn step-by-step
 1. basic_agent
 2. tool_agent
-3. more_agent
+3. structured_output_agent
+4. sessions_and_state

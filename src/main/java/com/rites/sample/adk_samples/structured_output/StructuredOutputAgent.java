@@ -46,6 +46,7 @@ public class StructuredOutputAgent {
                         
                         DO NOT include any explanations or additional text outside the JSON response.
                         """)
+                // Warning: outputSchema cannot co-exist with agent transfer configurations.
                 .outputKey("email")
                 .outputSchema(EMAIL_SCHEMA)
                 // Control whether the agent receives the prior conversation history.

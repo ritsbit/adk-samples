@@ -26,6 +26,7 @@ public class BasicAgent {
         final InMemoryRunner runner = new InMemoryRunner(ROOT_AGENT);
         final Session session = runner
                 .sessionService()
+                // APP_NAME should match with the name of the agent !!
                 .createSession(APP_NAME, USER_ID)
                 .blockingGet();
 
