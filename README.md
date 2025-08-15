@@ -17,3 +17,4 @@
 2. tool_agent
 3. structured_output_agent
 4. sessions_and_state
+5. persistent_agent
